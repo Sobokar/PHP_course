@@ -1,0 +1,49 @@
+
+*{
+    font-family: Tahoma;
+}
+a{
+    font-color:#0074A2
+}
+a:hover{
+    color:#003300
+}
+.bar{
+    border: 1px solid red; /* Параметры границы */
+    padding: 5px; /* Поля вокруг текста */
+}
+.bar b{
+    color:#FF3399
+}
+.bold{
+    font-weight:900;
+}
+.italic{
+    font-style: italic;
+}
+.underlined{
+    text-decoration: underline;
+}
+div.container{
+    width: 1000px;
+    padding: 1px;
+    margin: 0 auto;
+}
+.header, .footer, .navigation{
+    margin: 20px;
+    padding: 10px;
+}
+.content{
+    padding: 20px;
+}
+.header{
+    height: 50px;
+    text-align: right;
+    font-style: italic;
+
+}
+.footer{
+    height: 40px;
+    text-align: center;
+}
+

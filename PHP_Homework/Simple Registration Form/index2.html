@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<h1>Registration Form Step 3</h1>
+<!--Создаем стилевой файл и подключаем его-->
+<form class="reg-form" form action="index.html" method="get">
+    <!--Создаем первый класс - класс строчки формы div class="form-row" и скопируем его для каждого дивижина-->
+    <!-- Задаем стилевые свойства для класса .form-row-->
+    <!-- Теперь задаем стилевые свойства самим инпутам, которыеи находятся ВНУТРИ класса.form-row, зададим
+    им float по правой стороне и высоту поля, в результате все поля для заполнения "прибились" к правому краю +
+    несколько доп свойств-->
+    <!--Cледующий селектор зададим для всей формы - reg-form -ширину и отступы, и зададим этот класс в первом теге формы-->
+    <!--Отдельно указываем стилевые свойства дл текстового блока с доп информацией textarea который находится внутри
+    класса form-row-->
+    <!--Стилизируем кнопку через селектор .form-row input[type=submit]-->
+    <div class="form-row">
+        <label for="form_fname">First name: </label>
+        <input type="text" id="form_fname" name="first_name"/>
+    </div>
+    <div class="form-row">
+        <label for="form_sname">Second name: </label>
+        <input type="text" id="form_sname" name="second_name"/>
+    </div>
+    <div class="form-row">
+        <label for="form_phone">Phone: </label>
+        <input type="text" id="form_phone" name="pnone"/>
+    </div>
+    <div class="form-row">
+        <label for="form_email">Email: </label>
+        <input type="email" id="form_email" name="email"/>
+    </div>
+    <div class="form-row">
+        <label for="form_about">About: </label>
+        <textarea name="about" id="form_about"></textarea>
+    </div>
+    <div class="form-row">
+        <input type="submit" value="Go"/>
+    </div>
+</body>
+</html>
